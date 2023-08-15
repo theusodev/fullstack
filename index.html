@@ -10,20 +10,63 @@
 <body>
     <header>
         <nav>
-            <a href="">Lista</a>
-            <a href="">Tabela</a>
-            <a href="">Formulários</a>
+            <a href="#listas">Lista</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formularios">Formulários</a>
         </nav>
     </header>
     <main>
         <section id="listas">
             <h2>Listas</h2>
+            <ul>
+                <h4>SAP Skills</h4>
+                <li>SAP</li>
+                <li>SAP ECC</li>
+                <li>SAP S4/HANA</li>
+            </ul>
+            <ol>
+                <h4>Programming Skills</h4>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>ABAP</li>
+            </ol>
         </section>
-        <section>
+        <section id="tabelas">
             <h2>Tabelas</h2>
+            <table>
+                <thead>
+                    <h4>SAP Knowledge</h4>
+                    <td>SAP MM</td>
+                    <td>SAP TM</td>
+                    <td>SAP FI</td>
+                </thead>
+                <tbody>
+                    <td>Material Management</td>
+                    <td>Transportation Management</td>
+                    <td>Finance</td>
+                </tbody>
+                <tbody>
+                    <td>ECC</td>
+                    <td>S4/HANA</td>
+                    <td>HANA</td>
+                </tbody>
+            </table>
         </section>
-        <section>
+        <section id="formularios">
             <h2>Formulários</h2>
+            <form>
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="idade">Idade</label><br>
+                <input type="text" id="idade" name="idade"><br>
+                <label for="cidade">Cidade</label><br>
+                <input type="text" name="cidade" id="cidade"><br>
+                <label for="cpf">CPF</label><br>
+                <input type="text" name="cpf" id="cpf"><br>
+                <label for="ncard">Número do Cartão</label><br>
+                <input type="text" name="ncard" id="ncard"><br>
+              </form>
+            <button type="button">Enviar</button>
         </section>
     </main>
 </body>

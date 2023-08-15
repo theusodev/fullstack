@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -42,8 +44,13 @@ header a:hover {
 section {
     border: 1px solid rebeccapurple;
     height: calc(100vh - 5rem);
+    padding: 3rem;
 }
 
 #listas {
     margin-top: 5rem;
+}
+
+section h2 {
+    text-align: center;
 }
