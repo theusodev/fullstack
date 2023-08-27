@@ -22,9 +22,9 @@ header a {
     text-decoration: none;
     color: bisque;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     
 }
 
@@ -42,7 +42,7 @@ header a:hover {
 }
 
 section {
-    border: 1px solid rebeccapurple;
+    border: 0.0625rem solid rebeccapurple;
     height: calc(100vh - 5rem);
     padding: 3rem;
 }
@@ -54,3 +54,17 @@ section {
 section h2 {
     text-align: center;
 }
+
+table, th, td {
+    padding: 0.9375rem;
+    border: 0.0625rem solid black;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h4 {
+    text-align: center;
+}  
